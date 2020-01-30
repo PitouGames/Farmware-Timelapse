@@ -1,0 +1,16 @@
+{
+ "package": "Timelapse",
+ "language": "python",
+ "author": "PitouGames",
+ "description": "A Farmbot Farmware to easily create beautiful timelapses of your growing plants!",
+ "farmware_manifest_version": "2.0.0",
+ "package_version": "0.0.1",
+ "farmbot_os_version_requirement": ">= 8.0.0",
+ "url": "https://raw.githubusercontent.com/PitouGames/Farmware-Timelapse/master/manifest.json",
+ "zip": "https://github.com/PitouGames/Farmware-Timelapse/archive/master.zip",
+ "executable": "python",
+ "args": "Farmware-Timelapse-master/timelapse.py",
+ "config": {
+   "1": {"name": "camera_port", "label": "Camera port (0, 1, 2, 3, etc.)", "value": 0 }
+ }
+}
